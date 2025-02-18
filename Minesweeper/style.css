@@ -1,0 +1,139 @@
+/* 
+button{
+  padding:10px;
+  margin: 0px;
+}
+
+table,tr,td{
+  border: 1px solid;
+  border-color: white;
+  margin: 0px;
+  padding: 0px;
+  border-collapse: collapse;
+}
+
+.container{
+  display: flex;
+  background-color: yellw;
+  text-align: center;
+  text-justify: center;
+}
+
+#map{
+  margin:10px;
+}
+
+#wrapper{
+  text-align: center;
+  background-color: blak;
+} */
+
+/* Reset some default styles for better consistency across browsers */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the font for the entire page */
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Center the content of the page */
+  #app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style the wrapper div */
+  #wrapper {
+    text-align: center;
+  }
+  
+  /* Style the menu section */
+  #menu {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the start button */
+  #menu button {
+    padding: 15px 25px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Add a hover effect for the button */
+  #menu button:hover {
+    background-color: #45a049;
+  }
+  
+  /* #map button{
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    border-color: black;
+    cursor: pointer;
+    font-size:20px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+  } */
+  
+  .text{
+    font-size: 100px;
+    margin: 20px;
+  }
+
+
+  /* 根据需要设置按钮的宽度和高度 */
+  #map button {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    line-height: 20px; 
+  }
+  
+  
+  /* Style the game container */
+  .container {
+    border: 2px solid #ddd;
+    padding: 10px;
+  }
+  
+  /* Style the Minesweeper map table */
+  #map {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  
+  /* Add some basic styling for uncovered cells */
+  #map td.uncovered {
+    background-color: #f0f0f0;
+  }
+  
+  /* Add styling for flagged cells */
+  #map td.flagged {
+    background-color: #ffcc00;
+  }
+  
+  /* Add styling for cells with mines */
+  #map td.mine {
+    background-color: #ff6666;
+    color: #fff;
+  }
+  
+  /* Add styling for cells with numbers */
+  #map td.number {
+    background-color: #e0e0e0;
+  }
+  
